@@ -851,3 +851,23 @@
   width: 100%;
   height: auto;
 }
+/* =========================
+   Pricing page refinements
+   ========================= */
+
+.price__value strong,
+.table strong {
+  font: inherit;
+}
+
+.notice {
+  line-height: 1.5;
+}
+
+.table td strong {
+  font-weight: 700;
+}
+
+.hero .price__meta {
+  opacity: 0.8;
+}

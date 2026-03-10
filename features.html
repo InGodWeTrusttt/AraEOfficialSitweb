@@ -3,24 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>AraE — Fonctionnalités</title>
-  <meta name="description" content="Découvrez les fonctionnalités majeures d’AraE : notes de session, entités structurées, référentiel monde, règles, outils MJ et workflow complet." />
+  <meta
+    name="description"
+    content="Découvrez les fonctionnalités d’AraE : sessions, entités structurées, référentiel monde, règles, outils MJ et workflow pensé pour les campagnes JDR longues."
+  />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://arae.netlify.app/features.html" />
+  <link rel="canonical" href="https://ingodwetrusttt.github.io/AraEOfficialSitweb/features.html" />
+
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://arae.netlify.app/features.html" />
+  <meta property="og:url" content="https://ingodwetrusttt.github.io/AraEOfficialSitweb/features.html" />
   <meta property="og:title" content="AraE — Fonctionnalités" />
-  <meta property="og:description" content="Découvrez les fonctionnalités majeures d’AraE : notes de session, entités structurées, référentiel monde, règles, outils MJ et workflow complet." />
-  <meta property="og:image" content="https://arae.netlify.app/assets/og/og-home.png" />
+  <meta
+    property="og:description"
+    content="Sessions, entités, référentiel monde, règles et outils MJ dans un workflow pensé pour garder une campagne lisible."
+  />
+  <meta property="og:image" content="https://ingodwetrusttt.github.io/AraEOfficialSitweb/assets/og/og-home.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="AraE — Fonctionnalités" />
-  <meta name="twitter:description" content="Découvrez les fonctionnalités majeures d’AraE : notes de session, entités structurées, référentiel monde, règles, outils MJ et workflow complet." />
-  <meta name="twitter:image" content="https://arae.netlify.app/assets/og/og-home.png" />
+  <meta
+    name="twitter:description"
+    content="Découvrez comment AraE transforme des notes de session en information exploitable pour une campagne JDR longue."
+  />
+  <meta name="twitter:image" content="https://ingodwetrusttt.github.io/AraEOfficialSitweb/assets/og/og-home.png" />
+
   <meta name="theme-color" content="#0b0f14" />
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/png" href="/icons/icon-32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/icons/icon-16.png" sizes="16x16" />
-  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="icons/icon-32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="icons/icon-16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/layout.css" />
@@ -41,12 +57,12 @@
       </a>
 
       <nav class="nav" aria-label="Navigation principale">
-        <a class="nav__link" href="features.html">Fonctionnalités</a>
+        <a class="nav__link" href="features.html" aria-current="page">Fonctionnalités</a>
         <a class="nav__link" href="pricing.html">Prix</a>
         <a class="nav__link" href="download.html">Télécharger</a>
         <a class="nav__link" href="support.html">Support</a>
         <a class="nav__link" href="changelog.html">Changelog</a>
-        <a class="nav__link nav__link--cta" data-buy-link href="#">Acheter AraE</a>
+        <a class="nav__link nav__link--cta" data-buy-link href="pricing.html">Acheter AraE</a>
       </nav>
 
       <button
@@ -65,30 +81,50 @@
 
     <div id="mobile-nav" class="mobile" data-mobile>
       <div class="container mobile__inner">
-        <a class="mobile__link" href="features.html">Fonctionnalités</a>
+        <a class="mobile__link" href="features.html" aria-current="page">Fonctionnalités</a>
         <a class="mobile__link" href="pricing.html">Prix</a>
         <a class="mobile__link" href="download.html">Télécharger</a>
         <a class="mobile__link" href="support.html">Support</a>
         <a class="mobile__link" href="changelog.html">Changelog</a>
-        <a class="mobile__link mobile__link--cta" data-buy-link href="#">Acheter AraE</a>
+        <a class="mobile__link mobile__link--cta" data-buy-link href="pricing.html">Acheter AraE</a>
       </div>
     </div>
   </header>
 
   <main id="content">
-
     <section class="hero">
       <div class="container hero__grid">
         <div class="hero__copy">
           <div class="kicker">Fonctionnalités</div>
-          <h1 class="hero__title">Une architecture produit pensée pour suivre une campagne du brut au consolidé.</h1>
+
+          <div class="badges" aria-label="Badges produit">
+            <span class="badge">Sessions → Monde</span>
+            <span class="badge">Pensé d’abord pour MJ</span>
+            <span class="badge">Offline-first</span>
+          </div>
+
+          <h1 class="hero__title">Un workflow conçu pour transformer des notes de table en connaissance exploitable.</h1>
+
           <p class="hero__lead">
-            AraE n’est pas une liste de pages. C’est un système de travail : capturer pendant la partie, enrichir après,
-            comparer dans le temps, puis retrouver l’information utile sans friction.
+            AraE n’est pas une simple accumulation de pages. Le produit suit une logique précise :
+            <strong>capturer pendant la partie</strong>, <strong>structurer après</strong>,
+            <strong>comparer dans le temps</strong>, puis <strong>retrouver immédiatement</strong>
+            ce qui compte vraiment.
           </p>
+
+          <p class="hero__lead">
+            C’est cette cohérence qui différencie AraE d’un outil de notes généraliste détourné.
+          </p>
+
           <div class="actions">
-            <a class="btn btn--primary" data-buy-link href="#">Acheter AraE</a>
-            <a class="btn btn--secondary" data-download-link href="#">Télécharger</a>
+            <a class="btn btn--primary" data-buy-link href="pricing.html">Acheter AraE</a>
+            <a class="btn btn--secondary" data-download-link href="download.html">Télécharger</a>
+          </div>
+
+          <div class="pillrow">
+            <span class="pill">Windows desktop</span>
+            <span class="pill">Données locales</span>
+            <span class="pill">10 € TTC • Paiement unique</span>
           </div>
         </div>
 
@@ -100,7 +136,7 @@
             </div>
             <div class="shot__body">
               <div class="shot__image">
-                <img data-hero-shot src="assets/placeholders/hero-main.webp" alt="Capture placeholder globale d’AraE" />
+                <img data-hero-shot src="assets/placeholders/hero-main.webp" alt="Vue d’ensemble d’AraE" />
               </div>
             </div>
           </div>
@@ -112,29 +148,42 @@
       <div class="container">
         <div class="section__head">
           <h2 class="h2">Workflow principal</h2>
-          <p class="sub">Le produit est organisé autour d’un enchaînement logique. C’est cette cohérence qui fait gagner du temps à la table.</p>
+          <p class="sub">
+            Le produit est organisé autour d’un enchaînement logique. C’est cette structure qui réduit la friction à la table.
+          </p>
         </div>
 
         <div class="grid grid--4">
           <article class="card">
             <div class="card__icon" aria-hidden="true">1</div>
             <h3 class="h3">Créer une session</h3>
-            <p class="p">Chaque session devient un point d’ancrage chronologique dans l’histoire du groupe.</p>
+            <p class="p">
+              Chaque session devient un point d’ancrage chronologique dans l’histoire du groupe.
+            </p>
           </article>
+
           <article class="card">
             <div class="card__icon" aria-hidden="true">2</div>
             <h3 class="h3">Capturer vite</h3>
-            <p class="p">Les notes peuvent être prises sans casser le rythme de la partie ni forcer une structuration immédiate.</p>
+            <p class="p">
+              Les notes se prennent sans casser le rythme de la partie ni imposer une structuration immédiate.
+            </p>
           </article>
+
           <article class="card">
             <div class="card__icon" aria-hidden="true">3</div>
             <h3 class="h3">Structurer après</h3>
-            <p class="p">Les informations sont ensuite redistribuées en entités liées, versionnées ou consolidées selon leur nature.</p>
+            <p class="p">
+              Les informations sont ensuite redistribuées en entités liées, versionnées ou consolidées selon leur nature.
+            </p>
           </article>
+
           <article class="card">
             <div class="card__icon" aria-hidden="true">4</div>
             <h3 class="h3">Comparer et retrouver</h3>
-            <p class="p">Le logiciel permet de retrouver l’état d’un fait, d’un lieu ou d’un PNJ selon le contexte et la période.</p>
+            <p class="p">
+              Le logiciel permet de retrouver l’état d’un fait, d’un lieu ou d’un PNJ selon le contexte et la période.
+            </p>
           </article>
         </div>
       </div>
@@ -144,13 +193,17 @@
       <div class="container">
         <div class="section__head">
           <h2 class="h2">Fonctionnalités clés</h2>
-          <p class="sub">Chaque capacité produit répond à un problème concret rencontré dans les campagnes longues.</p>
+          <p class="sub">
+            Chaque capacité produit répond à un problème concret rencontré dans les campagnes longues.
+          </p>
         </div>
 
         <div class="grid grid--3">
           <article class="card">
             <h3 class="h3">Journal de session</h3>
-            <p class="p">Capture centralisée des informations prises sur le vif pendant la partie.</p>
+            <p class="p">
+              Capture centralisée des informations prises sur le vif pendant la partie.
+            </p>
             <ul class="list">
               <li>Point d’entrée chronologique</li>
               <li>Notes rapides avant structuration</li>
@@ -160,17 +213,21 @@
 
           <article class="card">
             <h3 class="h3">Entités structurées</h3>
-            <p class="p">PNJ, lieux, factions, religions, monstres, chroniques, notes et éléments cartographiques.</p>
+            <p class="p">
+              PNJ, lieux, factions, religions, monstres, chroniques, notes et éléments cartographiques.
+            </p>
             <ul class="list">
               <li>Organisation durable</li>
               <li>Réduction du bruit dans les notes</li>
-              <li>Support plus adapté qu’un simple wiki libre</li>
+              <li>Support plus robuste qu’un simple wiki libre</li>
             </ul>
           </article>
 
           <article class="card">
             <h3 class="h3">Versioning des découvertes</h3>
-            <p class="p">Une information peut évoluer dans le temps sans effacer ce que le groupe croyait savoir auparavant.</p>
+            <p class="p">
+              Une information peut évoluer dans le temps sans effacer ce que le groupe croyait savoir auparavant.
+            </p>
             <ul class="list">
               <li>Contexte par session</li>
               <li>Historique lisible</li>
@@ -180,7 +237,9 @@
 
           <article class="card">
             <h3 class="h3">Référentiel monde</h3>
-            <p class="p">Vue consolidée des entités globales pour sortir d’une lecture purement séquentielle.</p>
+            <p class="p">
+              Vue consolidée des entités globales pour sortir d’une lecture purement séquentielle.
+            </p>
             <ul class="list">
               <li>Vision macro de l’univers</li>
               <li>Support à la préparation MJ</li>
@@ -190,17 +249,21 @@
 
           <article class="card">
             <h3 class="h3">Règles & homebrew</h3>
-            <p class="p">Accès rapide à un système de jeu, ses variantes ou son adaptation maison.</p>
+            <p class="p">
+              Accès rapide à un système de jeu, ses variantes ou son adaptation maison.
+            </p>
             <ul class="list">
               <li>Import ou structuration de règles</li>
-              <li>Consultation “table-ready”</li>
+              <li>Consultation table-ready</li>
               <li>Support aux systèmes custom</li>
             </ul>
           </article>
 
           <article class="card">
             <h3 class="h3">Outils MJ</h3>
-            <p class="p">Stat blocks, équilibrage et préparation de contenu dans un bloc dédié.</p>
+            <p class="p">
+              Stat blocks, équilibrage et préparation de contenu dans un bloc dédié.
+            </p>
             <ul class="list">
               <li>Centralisation côté meneur</li>
               <li>Support à l’équilibrage</li>
@@ -214,12 +277,52 @@
     <section class="section section--soft">
       <div class="container">
         <div class="section__head">
+          <div class="kicker">Différenciation</div>
+          <h2 class="h2">Pourquoi ces fonctionnalités tiennent mieux qu’un wiki ou un simple bloc-notes</h2>
+          <p class="sub">
+            La valeur ne vient pas seulement des éléments présents, mais de la manière dont ils restent reliés dans le temps.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--accent">
+            <div class="card__icon" aria-hidden="true">01</div>
+            <h3 class="h3">Chronologie préservée</h3>
+            <p class="p">
+              Ce qui était connu, supposé ou révélé à une session donnée ne se mélange pas avec un état final réécrit après coup.
+            </p>
+          </article>
+
+          <article class="card card--accent">
+            <div class="card__icon" aria-hidden="true">02</div>
+            <h3 class="h3">Information structurée</h3>
+            <p class="p">
+              Un PNJ, un lieu ou une faction cessent d’être des fragments perdus dans des pages libres : ils deviennent des objets réutilisables.
+            </p>
+          </article>
+
+          <article class="card card--accent">
+            <div class="card__icon" aria-hidden="true">03</div>
+            <h3 class="h3">Préparation moins fragmentée</h3>
+            <p class="p">
+              Sessions, monde, règles et outils MJ peuvent rester dans le même environnement au lieu d’être dispersés entre plusieurs logiciels.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
           <h2 class="h2">Modules</h2>
-          <p class="sub">Chaque module peut avoir sa propre capture. Les fichiers placeholders sont déjà prévus dans le bundle.</p>
+          <p class="sub">
+            Chaque module couvre une partie du travail, sans casser la cohérence globale du produit.
+          </p>
         </div>
 
         <div class="grid grid--2">
-          <article class="card card--flat">
+          <a class="card card--flat module-card" href="sessions.html" aria-label="Explorer le module Sessions">
             <div class="shot">
               <div class="shot__topbar">
                 <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -227,13 +330,17 @@
               </div>
               <div class="shot__body">
                 <div class="shot__image">
-                  <img data-session-shot src="assets/placeholders/sessions.webp" alt="Placeholder capture module Sessions" />
+                  <img data-session-shot src="assets/placeholders/sessions.webp" alt="Vue du module Sessions" />
                 </div>
               </div>
             </div>
-          </article>
+            <p class="p">
+              Journal, notes et éléments liés à l’avancement concret de la campagne.
+            </p>
+            <div class="module-card__cta">Explorer le module <span aria-hidden="true">→</span></div>
+          </a>
 
-          <article class="card card--flat">
+          <a class="card card--flat module-card" href="monde.html" aria-label="Explorer le module Monde">
             <div class="shot">
               <div class="shot__topbar">
                 <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -241,13 +348,17 @@
               </div>
               <div class="shot__body">
                 <div class="shot__image">
-                  <img data-world-shot src="assets/placeholders/world.webp" alt="Placeholder capture module Monde" />
+                  <img data-world-shot src="assets/placeholders/world.webp" alt="Vue du module Monde" />
                 </div>
               </div>
             </div>
-          </article>
+            <p class="p">
+              Référentiel consolidé, vision plus macro et comparaison inter-sessions.
+            </p>
+            <div class="module-card__cta">Explorer le module <span aria-hidden="true">→</span></div>
+          </a>
 
-          <article class="card card--flat">
+          <a class="card card--flat module-card" href="regles.html" aria-label="Explorer le module Règles">
             <div class="shot">
               <div class="shot__topbar">
                 <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -255,13 +366,17 @@
               </div>
               <div class="shot__body">
                 <div class="shot__image">
-                  <img data-rules-shot src="assets/placeholders/rules.webp" alt="Placeholder capture module Règles" />
+                  <img data-rules-shot src="assets/placeholders/rules.webp" alt="Vue du module Règles" />
                 </div>
               </div>
             </div>
-          </article>
+            <p class="p">
+              Système de jeu, variantes et homebrew consultables rapidement.
+            </p>
+            <div class="module-card__cta">Explorer le module <span aria-hidden="true">→</span></div>
+          </a>
 
-          <article class="card card--flat">
+          <a class="card card--flat module-card" href="mj.html" aria-label="Explorer le module MJ">
             <div class="shot">
               <div class="shot__topbar">
                 <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -269,18 +384,47 @@
               </div>
               <div class="shot__body">
                 <div class="shot__image">
-                  <img data-gm-shot src="assets/placeholders/gm.webp" alt="Placeholder capture module MJ" />
+                  <img data-gm-shot src="assets/placeholders/gm.webp" alt="Vue du module MJ" />
                 </div>
               </div>
             </div>
-          </article>
+            <p class="p">
+              Stat blocks, équilibrage et préparation dédiée côté meneur.
+            </p>
+            <div class="module-card__cta">Explorer le module <span aria-hidden="true">→</span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Impact</div>
+          <h2 class="h2">Ce que ces fonctionnalités changent concrètement</h2>
         </div>
 
-        <div class="actions" style="margin-top:28px;">
-          <a class="btn btn--secondary" href="sessions.html">Voir Sessions</a>
-          <a class="btn btn--secondary" href="monde.html">Voir Monde</a>
-          <a class="btn btn--secondary" href="regles.html">Voir Règles</a>
-          <a class="btn btn--secondary" href="mj.html">Voir MJ</a>
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="h3">Moins de pertes d’information</h3>
+            <p class="p">
+              Les éléments importants cessent d’être noyés dans des notes successives ou des documents dispersés.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Moins d’ambiguïté narrative</h3>
+            <p class="p">
+              Le groupe peut distinguer ce qu’il savait réellement à une session précise de ce qui a été corrigé ensuite.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Moins de friction à table</h3>
+            <p class="p">
+              La préparation, la consultation et la récupération d’information deviennent plus rapides et plus cohérentes.
+            </p>
+          </article>
         </div>
       </div>
     </section>
@@ -288,17 +432,19 @@
     <section class="section section--tight">
       <div class="container">
         <div class="cta-banner">
-          <div class="kicker">Activation commerciale</div>
-          <h2 class="h2">Le site peut être basculé en lancement public en modifiant uniquement la configuration.</h2>
-          <p class="sub">Prix, URL d’achat, téléchargement, support et informations éditoriales sont centralisés dans <code>js/site-config.js</code>.</p>
+          <div class="kicker">Décision</div>
+          <h2 class="h2">Explorez les fonctionnalités, puis gardez enfin votre campagne exploitable.</h2>
+          <p class="sub">
+            AraE réunit sessions, monde, règles et outils MJ dans un workflow conçu pour les campagnes longues.
+          </p>
           <div class="actions">
-            <a class="btn btn--primary" data-buy-link href="#">Acheter AraE</a>
-            <a class="btn btn--secondary" href="pricing.html">Voir les prix</a>
+            <a class="btn btn--primary" data-buy-link href="pricing.html">Acheter AraE</a>
+            <a class="btn btn--secondary" href="pricing.html">Voir le prix</a>
+            <a class="btn btn--ghost" data-download-link href="download.html">Télécharger</a>
           </div>
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="footer">
@@ -323,6 +469,5 @@
 
   <script src="js/site-config.js"></script>
   <script src="js/main.js"></script>
-
 </body>
 </html>

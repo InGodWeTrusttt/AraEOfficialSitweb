@@ -39,4 +39,9 @@ window.ARAE_CONFIG = {
   consumerMediatorName: "À compléter avant mise en ligne commerciale",
 consumerMediatorAddress: "À compléter avant mise en ligne commerciale",
 consumerMediatorUrl: "#",
+  companyLegalForm: "À compléter avant mise en ligne commerciale",
+companyCapital: "À compléter avant mise en ligne commerciale",
+companyPhone: "À compléter avant mise en ligne commerciale",
+founderName: "À compléter si entrepreneur individuel",
+hostPhone: "À compléter avant mise en ligne commerciale",
 };

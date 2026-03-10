@@ -7,7 +7,7 @@ window.ARAE_CONFIG = {
   buyLabel: "Acheter AraE",
   downloadLabel: "Télécharger pour Windows",
   secondaryLabel: "Voir les fonctionnalités",
-  priceLabel: "Prix à annoncer",
+  priceLabel: "10 €",
   availabilityLabel: "Windows desktop • Offline-first • Licence à l'achat",
   releaseStateLabel: "Lancement public à activer lors de la sortie",
   supportEmail: "contact@example.com",

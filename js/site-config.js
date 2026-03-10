@@ -10,7 +10,7 @@ window.ARAE_CONFIG = {
   priceLabel: "10 €",
   availabilityLabel: "Windows desktop • Offline-first • Licence à l'achat",
   releaseStateLabel: "Lancement public à activer lors de la sortie",
-  supportEmail: "contact@example.com",
+  supportEmail: "AraE@gmail.com",
   salesEmail: "sales@example.com",
   companyName: "Éditeur à compléter",
   companyAddress: "Adresse postale à compléter",

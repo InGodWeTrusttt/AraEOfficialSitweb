@@ -1,0 +1,27 @@
+window.ARAE_CONFIG = {
+  siteUrl: "https://arae.netlify.app",
+  launchMode: "prelaunch", // change to "live" on release day
+  platform: "Windows",
+  buyUrl: "#",
+  downloadUrl: "#",
+  buyLabel: "Acheter AraE",
+  downloadLabel: "Télécharger pour Windows",
+  secondaryLabel: "Voir les fonctionnalités",
+  priceLabel: "Prix à annoncer",
+  availabilityLabel: "Windows desktop • Offline-first • Licence à l'achat",
+  releaseStateLabel: "Lancement public à activer lors de la sortie",
+  supportEmail: "contact@example.com",
+  salesEmail: "sales@example.com",
+  companyName: "Éditeur à compléter",
+  companyAddress: "Adresse postale à compléter",
+  publicationDirector: "Responsable de publication à compléter",
+  vatNumber: "TVA à compléter",
+  companyId: "SIREN / forme juridique à compléter",
+  hostName: "Netlify, Inc.",
+  hostAddress: "44 Montgomery Street, Suite 300, San Francisco, California 94104, USA",
+  heroScreenshot: "assets/placeholders/hero-main.webp",
+  sessionScreenshot: "assets/placeholders/sessions.webp",
+  worldScreenshot: "assets/placeholders/world.webp",
+  rulesScreenshot: "assets/placeholders/rules.webp",
+  gmScreenshot: "assets/placeholders/gm.webp"
+};

@@ -773,3 +773,81 @@
   background:rgba(255,255,255,.05);
   color:rgba(230,237,243,.95);
 }
+/* =========================
+   Homepage refinements
+   ========================= */
+
+.thumb--link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+}
+
+.thumb--link:hover,
+.thumb--link:focus-visible {
+  transform: translateY(-2px);
+  opacity: 0.96;
+}
+
+.thumb--link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.module-card {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+  cursor: pointer;
+}
+
+.module-card:hover,
+.module-card:focus-visible {
+  transform: translateY(-4px);
+}
+
+.module-card:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+
+.module-card .shot {
+  margin-bottom: 18px;
+}
+
+.module-card .shot__image img {
+  transition: transform 0.24s ease;
+}
+
+.module-card:hover .shot__image img,
+.module-card:focus-visible .shot__image img {
+  transform: scale(1.015);
+}
+
+.module-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero__proof .proof {
+  min-height: 100%;
+}
+
+/* Optionnel : si tes thumbs n'ont pas déjà de style carte */
+.thumb--link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

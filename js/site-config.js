@@ -35,4 +35,8 @@ window.ARAE_CONFIG = {
   worldScreenshot: "assets/placeholders/world.webp",
   rulesScreenshot: "assets/placeholders/rules.webp",
   gmScreenshot: "assets/placeholders/gm.webp"
+
+  consumerMediatorName: "À compléter avant mise en ligne commerciale",
+consumerMediatorAddress: "À compléter avant mise en ligne commerciale",
+consumerMediatorUrl: "#",
 };

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AraE — Logiciel desktop pour organiser une campagne JDR</title>
+  <meta
+    name="description"
+    content="AraE centralise notes de session, entités structurées, référentiel monde, règles et outils MJ dans un logiciel desktop offline-first conçu pour les campagnes JDR."
+  />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://arae.netlify.app/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://arae.netlify.app/" />
+  <meta property="og:title" content="AraE — Logiciel desktop pour organiser une campagne JDR" />
+  <meta
+    property="og:description"
+    content="Notes en session, structuration après partie, historique des découvertes, référentiel monde, règles et outils MJ."
+  />
+  <meta property="og:image" content="https://arae.netlify.app/assets/og/og-home.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AraE — Logiciel desktop pour organiser une campagne JDR" />
+  <meta
+    name="twitter:description"
+    content="Le logiciel desktop pensé pour les joueurs et MJ qui veulent enfin retrouver l’information utile d’une campagne."
+  />
+  <meta name="twitter:image" content="https://arae.netlify.app/assets/og/og-home.png" />
+
+  <meta name="theme-color" content="#0b0f14" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="/icons/icon-32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/icons/icon-16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+</head>
+
+<body data-theme="violet">
+  <a class="skip-link" href="#content">Aller au contenu</a>
+
+  <header class="topbar" data-elevate>
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="AraE">
+        <span class="brand__mark" aria-hidden="true">A</span>
+        <span class="brand__text">
+          <span class="brand__name">AraE</span>
+          <span class="brand__meta">Campaign knowledge software</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="nav__link" href="#features">Fonctionnalités</a>
+        <a class="nav__link" href="#modules">Modules</a>
+        <a class="nav__link" href="pricing.html">Prix</a>
+        <a class="nav__link" href="download.html">Télécharger</a>
+        <a class="nav__link" href="#faq">FAQ</a>
+        <a class="nav__link nav__link--cta" data-buy-link href="#">Acheter AraE</a>
+      </nav>
+
+      <button
+        class="navbtn"
+        type="button"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        data-navbtn
+      >
+        <span class="navbtn__bar"></span>
+        <span class="navbtn__bar"></span>
+        <span class="navbtn__bar"></span>
+      </button>
+    </div>
+
+    <div id="mobile-nav" class="mobile" data-mobile>
+      <div class="container mobile__inner">
+        <a class="mobile__link" href="#features">Fonctionnalités</a>
+        <a class="mobile__link" href="#modules">Modules</a>
+        <a class="mobile__link" href="pricing.html">Prix</a>
+        <a class="mobile__link" href="download.html">Télécharger</a>
+        <a class="mobile__link" href="#faq">FAQ</a>
+        <a class="mobile__link mobile__link--cta" data-buy-link href="#">Acheter AraE</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="top" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="hero__eyebrow">Logiciel desktop conçu pour campagnes JDR longues</div>
+
+          <div class="badges" aria-label="Badges produit">
+            <span class="badge">Joueurs & MJ</span>
+            <span class="badge">Offline-first</span>
+            <span class="badge">Windows desktop</span>
+          </div>
+
+          <h1 class="hero__title">
+            Le logiciel de référence pour organiser une campagne JDR sans perdre l’information utile.
+          </h1>
+
+          <p class="hero__lead">
+            AraE centralise enfin ce que les outils de notes généralistes gèrent mal :
+            <strong>les découvertes par session</strong>, la <strong>structuration en entités</strong>,
+            le <strong>référentiel monde</strong>, les <strong>règles</strong> et les <strong>outils MJ</strong>.
+          </p>
+
+          <p class="hero__lead">
+            Pendant la partie, tu captures vite. Après la partie, tu consolides proprement.
+            Résultat : la campagne reste lisible, chronologique et exploitable.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" data-buy-link href="#">
+              <span data-buy-label>Acheter AraE</span>
+              <span class="btn__icon" aria-hidden="true">→</span>
+            </a>
+
+            <a class="btn btn--secondary" href="#features">
+              Voir les fonctionnalités
+              <span class="btn__icon" aria-hidden="true">↓</span>
+            </a>
+
+            <a class="btn btn--ghost" data-download-link href="download.html">
+              <span data-download-label>Télécharger pour Windows</span>
+            </a>
+          </div>
+
+          <div class="pillrow">
+            <span class="pill" data-availability-label>Windows desktop • Offline-first • Licence à l'achat</span>
+            <span class="status" data-mode-badge><span class="status__dot" aria-hidden="true"></span>Préparer les URL de vente et téléchargement</span>
+          </div>
+
+          <div class="hero__proof">
+            <div class="proof">
+              <div class="proof__value">4</div>
+              <div class="proof__label">Modules majeurs</div>
+            </div>
+            <div class="proof">
+              <div class="proof__value">Session → Monde</div>
+              <div class="proof__label">Workflow natif</div>
+            </div>
+            <div class="proof">
+              <div class="proof__value">Local</div>
+              <div class="proof__label">Données stockées sur la machine</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="shot">
+            <div class="shot__topbar">
+              <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="shot__label">Capture principale du produit — remplace simplement le fichier placeholder</div>
+            </div>
+
+            <div class="shot__body">
+              <div class="shot__image">
+                <img data-hero-shot src="assets/placeholders/hero-main.webp" alt="Placeholder de capture principale AraE" />
+              </div>
+
+              <div class="shot__thumbs" aria-label="Aperçus modules">
+                <div class="thumb">
+                  <img data-session-shot src="assets/placeholders/sessions.webp" alt="Placeholder module Sessions" />
+                  <div class="thumb__label">Sessions</div>
+                </div>
+                <div class="thumb">
+                  <img data-world-shot src="assets/placeholders/world.webp" alt="Placeholder module Monde" />
+                  <div class="thumb__label">Monde</div>
+                </div>
+                <div class="thumb">
+                  <img data-rules-shot src="assets/placeholders/rules.webp" alt="Placeholder module Règles" />
+                  <div class="thumb__label">Règles</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Le problème</div>
+          <h2 class="h2">Les outils de notes classiques cassent la lisibilité d’une campagne dès qu’elle devient dense.</h2>
+          <p class="sub">
+            Au début, quelques pages suffisent. Après plusieurs séances, la table cherche un PNJ, doute sur une rumeur,
+            confond deux versions d’un même fait ou perd le contexte d’une découverte. AraE est conçu précisément pour éviter cette dérive.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--accent">
+            <div class="card__icon" aria-hidden="true">01</div>
+            <h3 class="h3">Notes dispersées</h3>
+            <p class="p">
+              Les informations existent, mais elles ne sont pas reliées : personnage, lieu, révélation, source et date restent mélangés.
+            </p>
+          </article>
+
+          <article class="card card--accent">
+            <div class="card__icon" aria-hidden="true">02</div>
+            <h3 class="h3">Connaissance sans chronologie</h3>
+            <p class="p">
+              Ce que le groupe croit savoir à la session 8 n’est pas forcément vrai à la session 14. Sans versioning, tout se confond.
+            </p>
+          </article>
+
+          <article class="card card--accent">
+            <div class="card__icon" aria-hidden="true">03</div>
+            <h3 class="h3">Outils MJ séparés du reste</h3>
+            <p class="p">
+              Règles, équilibrage, stat blocks, notes monde et chroniques vivent souvent dans des supports différents. La friction devient permanente.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Pourquoi AraE</div>
+          <h2 class="h2">Un logiciel pensé pour les campagnes, pas une application de notes générique détournée.</h2>
+          <p class="sub">
+            La valeur d’AraE ne vient pas d’une accumulation de widgets. Elle vient d’un modèle de travail cohérent pour une campagne longue : capturer vite, structurer proprement, comparer dans le temps et retrouver l’information immédiatement.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="h3">Notes → entités</h3>
+            <p class="p">Les notes prises à chaud peuvent ensuite être redistribuées en PNJ, lieux, factions, monstres, religions, chroniques et références carte.</p>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Capture rapide pendant la partie</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Structuration post-session</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Moins de dette de notes</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Session vs Monde</h3>
+            <p class="p">AraE distingue ce qui a été découvert à un instant donné de ce qui constitue le référentiel consolidé du monde.</p>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Chronologie lisible</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Historique des versions</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Comparaison inter-sessions</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Usage table-ready</h3>
+            <p class="p">Le but n’est pas d’administrer un wiki complexe. Le but est de retrouver ce qu’il faut, vite, pendant et après la partie.</p>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Consultation rapide</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Données locales</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Conçu pour campagnes longues</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Aperçu produit</div>
+          <h2 class="h2">Quatre modules, un même système de travail.</h2>
+          <p class="sub">
+            Chaque bloc du logiciel répond à un besoin spécifique, sans casser la cohérence globale.
+            Remplace les images placeholders dès que tes captures définitives sont prêtes.
+          </p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card card--flat">
+            <div class="shot">
+              <div class="shot__topbar">
+                <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div class="shot__label">Sessions</div>
+              </div>
+              <div class="shot__body">
+                <div class="shot__image">
+                  <img data-session-shot src="assets/placeholders/sessions.webp" alt="Capture placeholder du module Sessions" />
+                </div>
+              </div>
+            </div>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Créer une session comme point de vérité chronologique</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Prendre des notes sans casser le rythme</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Transformer ensuite les notes en entités versionnées</span></div>
+            </div>
+          </article>
+
+          <article class="card card--flat">
+            <div class="shot">
+              <div class="shot__topbar">
+                <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div class="shot__label">Monde</div>
+              </div>
+              <div class="shot__body">
+                <div class="shot__image">
+                  <img data-world-shot src="assets/placeholders/world.webp" alt="Capture placeholder du module Monde" />
+                </div>
+              </div>
+            </div>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Consolider les entités globales non versionnées</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Comparer les états issus des sessions</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Obtenir une lecture “univers” du contenu</span></div>
+            </div>
+          </article>
+
+          <article class="card card--flat">
+            <div class="shot">
+              <div class="shot__topbar">
+                <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div class="shot__label">Règles</div>
+              </div>
+              <div class="shot__body">
+                <div class="shot__image">
+                  <img data-rules-shot src="assets/placeholders/rules.webp" alt="Capture placeholder du module Règles" />
+                </div>
+              </div>
+            </div>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Importer ou structurer un système JDR</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Préparer variantes et homebrew</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Réduire les interruptions de recherche à table</span></div>
+            </div>
+          </article>
+
+          <article class="card card--flat">
+            <div class="shot">
+              <div class="shot__topbar">
+                <div class="shot__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <div class="shot__label">MJ</div>
+              </div>
+              <div class="shot__body">
+                <div class="shot__image">
+                  <img data-gm-shot src="assets/placeholders/gm.webp" alt="Capture placeholder du module MJ" />
+                </div>
+              </div>
+            </div>
+            <div class="feature-list">
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Gérer stat blocks et analyse d’équilibrage</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Préparer du contenu modifié ou homebrew</span></div>
+              <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Centraliser les outils côté meneur</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="modules" class="section">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">Pour qui</div>
+          <h2 class="h2">AraE sert à la fois la table et la préparation.</h2>
+          <p class="sub">
+            Le produit peut être utilisé par un joueur qui veut suivre une campagne proprement, comme par un MJ qui veut piloter un univers, ses règles et son équilibrage dans le même environnement.
+          </p>
+        </div>
+
+        <div class="split">
+          <article class="card">
+            <div class="card__head">
+              <div>
+                <div class="card__kicker">Pour les joueurs</div>
+                <h3 class="h3">Retrouver immédiatement le contexte utile</h3>
+              </div>
+            </div>
+            <p class="p">Suivre les révélations, garder une chronique propre, retrouver un PNJ, un lieu ou une faction, et comprendre ce que le groupe savait réellement à un moment donné.</p>
+            <ul class="list">
+              <li>Suivi de campagne longue</li>
+              <li>Historique des découvertes</li>
+              <li>Liens entre notes et entités</li>
+              <li>Vision plus claire de la progression narrative</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <div>
+                <div class="card__kicker">Pour les MJ</div>
+                <h3 class="h3">Consolider, comparer, préparer et arbitrer</h3>
+              </div>
+            </div>
+            <p class="p">Construire un référentiel monde cohérent, centraliser les règles, préparer des variantes homebrew et suivre plus facilement ce qui a été exposé à la table.</p>
+            <ul class="list">
+              <li>Vue monde consolidée</li>
+              <li>Module règles dédié</li>
+              <li>Outils d’équilibrage MJ</li>
+              <li>Préparation plus robuste entre les sessions</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid grid--4" style="margin-top:28px;">
+          <a class="card" href="sessions.html">
+            <div class="card__kicker">Module 01</div>
+            <h3 class="h3">Sessions</h3>
+            <p class="p">Journal, notes et entités versionnées liées à l’avancement de la campagne.</p>
+          </a>
+
+          <a class="card" href="monde.html">
+            <div class="card__kicker">Module 02</div>
+            <h3 class="h3">Monde</h3>
+            <p class="p">Référentiel global, comparaison et consolidation inter-sessions.</p>
+          </a>
+
+          <a class="card" href="regles.html">
+            <div class="card__kicker">Module 03</div>
+            <h3 class="h3">Règles</h3>
+            <p class="p">Accès rapide à un système de jeu, variantes et homebrew.</p>
+          </a>
+
+          <a class="card" href="mj.html">
+            <div class="card__kicker">Module 04</div>
+            <h3 class="h3">MJ</h3>
+            <p class="p">Stat blocks, analyse d’équilibrage et outils de préparation meneur.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container sidebar">
+        <div>
+          <div class="section__head">
+            <div class="kicker">Licence & distribution</div>
+            <h2 class="h2">Un site prêt pour le lancement public.</h2>
+            <p class="sub">
+              La structure ci-dessous est volontairement prévue pour fonctionner le jour où tu actives les liens de vente et de téléchargement dans la configuration centrale.
+            </p>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="card">
+              <h3 class="h3">Achat</h3>
+              <p class="p">Le bouton principal peut être relié à ton futur checkout sans modifier les pages. Il suffit de renseigner l’URL d’achat dans <code>js/site-config.js</code>.</p>
+            </article>
+
+            <article class="card">
+              <h3 class="h3">Téléchargement</h3>
+              <p class="p">Même logique pour l’installateur Windows : mets en ligne le binaire, renseigne l’URL, et le site bascule immédiatement en mode public.</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="card card--accent">
+          <div class="kicker">Prix</div>
+          <h3 class="h3">AraE Desktop</h3>
+          <div class="price">
+            <div class="price__value" data-price-label>Prix à annoncer</div>
+            <div class="price__meta">licence</div>
+          </div>
+          <p class="p">Le composant est déjà en place. Tu n’auras qu’à définir le prix, l’URL d’achat et les mentions commerciales définitives.</p>
+          <div class="feature-list">
+            <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Application desktop Windows</span></div>
+            <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Données locales</span></div>
+            <div class="feature-list__item"><span class="feature-list__dot" aria-hidden="true">✓</span><span>Pages légales dédiées</span></div>
+          </div>
+          <div class="actions">
+            <a class="btn btn--primary u-full" data-buy-link href="#">Acheter AraE</a>
+            <a class="btn btn--secondary u-full" href="pricing.html">Voir la page prix</a>
+          </div>
+          <div class="notice" style="margin-top:14px;" data-release-state>
+            Lancement public à activer lors de la sortie
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section__head">
+          <div class="kicker">FAQ</div>
+          <h2 class="h2">Les questions qui bloquent une décision d’achat doivent être traitées explicitement.</h2>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>AraE est-il destiné aux joueurs ou aux MJ ?</summary>
+            <div class="faq__body">
+              Aux deux. Les joueurs y trouvent un suivi de campagne structuré, tandis que les MJ y gagnent en consolidation du monde, gestion des règles et outils de préparation.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>Quelle est la différence entre Session et Monde ?</summary>
+            <div class="faq__body">
+              Session décrit ce qui est connu à un instant précis de la campagne. Monde représente le référentiel consolidé, plus global, qui permet de comparer et d’analyser les évolutions.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>Les données restent-elles locales ?</summary>
+            <div class="faq__body">
+              Le positionnement du produit est offline-first. Le site, la page téléchargement et la politique de confidentialité sont déjà structurés pour communiquer ce point clairement.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>Comment le site passe-t-il en mode “public” le jour de la sortie ?</summary>
+            <div class="faq__body">
+              Toute l’activation commerciale se fait via <code>js/site-config.js</code> : liens d’achat, URL de téléchargement, prix, email de support, informations éditoriales.
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary>La version Mac ou Linux est-elle prévue ?</summary>
+            <div class="faq__body">
+              Le site communique aujourd’hui une cible Windows, afin d’éviter toute promesse ambiguë. Tu pourras ajouter d’autres plateformes plus tard sans casser la structure actuelle.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="kicker">Dernier CTA</div>
+          <h2 class="h2">Le site est prêt. Il ne manque plus que tes captures, ton prix et tes URLs finales.</h2>
+          <p class="sub">
+            La structure, les pages produit, les pages de confiance et les points d’activation sont déjà en place. Tu peux maintenant travailler le logiciel, puis ouvrir la vente sans refaire la façade.
+          </p>
+          <div class="actions">
+            <a class="btn btn--primary" data-buy-link href="#">Acheter AraE</a>
+            <a class="btn btn--secondary" data-download-link href="download.html">Télécharger</a>
+            <a class="btn btn--ghost" href="features.html">Explorer toutes les fonctionnalités</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">AraE</div>
+        <div class="footer__meta">© <span data-year>2026</span> — Logiciel desktop pour campagnes JDR</div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Liens de pied de page">
+        <a class="link" href="features.html">Fonctionnalités</a>
+        <a class="link" href="pricing.html">Prix</a>
+        <a class="link" href="download.html">Télécharger</a>
+        <a class="link" href="support.html">Support</a>
+        <a class="link" href="changelog.html">Changelog</a>
+        <a class="link" href="privacy.html">Confidentialité</a>
+        <a class="link" href="mentions-legales.html">Mentions légales</a>
+        <a class="link" href="cgv.html">CGV</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/site-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

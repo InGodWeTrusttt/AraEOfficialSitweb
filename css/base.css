@@ -15,9 +15,9 @@ body{
   font-family:var(--font);
   color:var(--text);
   background:
-    radial-gradient(1200px 520px at 50% -120px, rgba(var(--accent-rgb), .18), transparent 60%),
-    radial-gradient(900px 420px at 90% 0, rgba(var(--accent2-rgb), .09), transparent 60%),
-    radial-gradient(900px 520px at 8% 14%, rgba(var(--accent-rgb), .08), transparent 55%),
+    radial-gradient(1200px 520px at 50% -120px, rgba(var(--accent-rgb), .20), transparent 60%),
+    radial-gradient(980px 420px at 88% 0, rgba(var(--accent2-rgb), .11), transparent 62%),
+    radial-gradient(900px 520px at 8% 14%, rgba(var(--accent-rgb), .10), transparent 56%),
     linear-gradient(180deg, var(--bg2), var(--bg));
   line-height:1.6;
   min-height:100vh;

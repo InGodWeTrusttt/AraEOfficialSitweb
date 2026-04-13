@@ -3,7 +3,7 @@ AraE site bundle — integration notes
 1) Files to replace or add
 - Replace existing root HTML pages with the versions in this bundle.
 - Replace css/ with the CSS files in this bundle.
-- Replace js/main.js with the version in this bundle.
+- Replace js/main.js with the version in this bundle.j
 - Add js/site-config.js.
 - Add assets/placeholders/, assets/og/, icons/, favicon.ico.
 

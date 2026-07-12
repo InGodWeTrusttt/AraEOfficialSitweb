@@ -6,6 +6,11 @@ Le contenu public présente les fonctions réellement reliées dans l’applicat
 univers partagés, parcours MJ/PJ, personnages, préparation de sessions, scènes
 multimédias, cartes, grilles, tokens contrôlés, chat, dés et invitations.
 
+La source de vérité éditoriale issue de la revue du logiciel est documentée dans
+[`PRODUCT-SCOPE.md`](PRODUCT-SCOPE.md). Toute évolution importante du produit ou
+du site doit conserver cette distinction entre fonctions disponibles, profils
+génériques et automatisations encore en cours d’intégration.
+
 ## Aperçu local
 
 ```powershell

@@ -1,9 +1,9 @@
-AraE site bundle — integration notes
+AraEOfficialSitweb — integration notes
 
 1) Files to replace or add
 - Replace existing root HTML pages with the versions in this bundle.
 - Replace css/ with the CSS files in this bundle.
-- Replace js/main.js with the version in this bundle.j
+- Replace js/main.js with the version in this bundle.
 - Add js/site-config.js.
 - Add assets/placeholders/, assets/og/, icons/, favicon.ico.
 
@@ -22,13 +22,20 @@ Edit js/site-config.js:
 - companyName / companyAddress / companyId / vatNumber / publicationDirector
 
 4) Replace placeholder images
-Swap these files with your real assets, keeping the same names:
+Swap these files with real AraE captures, keeping the same names:
 - assets/placeholders/hero-main.webp
 - assets/placeholders/sessions.webp
 - assets/placeholders/world.webp
 - assets/placeholders/rules.webp
 - assets/placeholders/gm.webp
 - assets/og/og-home.png
+
+Recommended coverage:
+- hero-main: tabletop live with map, grid and tokens
+- sessions: scene preparation or player live view
+- world: shared universe and player roster
+- rules: system profile or character sheet
+- gm: side-by-side MJ and PJ experiences
 
 5) Legal pages
 privacy.html, mentions-legales.html, cgv.html and cookies.html are structured templates.

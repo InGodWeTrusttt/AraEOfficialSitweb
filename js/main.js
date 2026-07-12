@@ -82,8 +82,15 @@
   setText("[data-publication-director]", config.publicationDirector);
   setText("[data-vat-number]", config.vatNumber);
   setText("[data-company-id]", config.companyId);
+  setText("[data-company-legal-form]", config.companyLegalForm);
+  setText("[data-company-capital]", config.companyCapital);
+  setText("[data-company-phone]", config.companyPhone);
+  setText("[data-founder-name]", config.founderName);
   setText("[data-host-name]", config.hostName);
   setText("[data-host-address]", config.hostAddress);
+  setText("[data-host-phone]", config.hostPhone);
+  setText("[data-consumer-mediator-name]", config.consumerMediatorName);
+  setText("[data-consumer-mediator-address]", config.consumerMediatorAddress);
   setText("[data-buy-label]", config.buyLabel);
   setText("[data-download-label]", config.downloadLabel);
   setText("[data-year]", String(new Date().getFullYear()));
@@ -93,6 +100,7 @@
 
   setHref("[data-buy-link]", config.buyUrl, "Activer l’URL de vente dans js/site-config.js");
   setHref("[data-download-link]", config.downloadUrl, "Activer l’URL de téléchargement dans js/site-config.js");
+  setHref("[data-consumer-mediator-url]", config.consumerMediatorUrl, "Renseigner le médiateur dans js/site-config.js");
 
   setImage("[data-hero-shot]", config.heroScreenshot);
   setImage("[data-session-shot]", config.sessionScreenshot);

@@ -10,10 +10,10 @@ window.ARAE_CONFIG = {
 
   buyLabel: "Acheter AraE",
   downloadLabel: "Télécharger pour Windows",
-  secondaryLabel: "Voir les fonctionnalités",
+  secondaryLabel: "Découvrir le VTT",
 
   priceLabel: "10 € TTC",
-  availabilityLabel: "Windows desktop • Données locales • Offline-first",
+  availabilityLabel: "Windows desktop • VTT MJ/PJ • Données et médias local-first",
   releaseStateLabel: "Pré-lancement",
 
   supportEmail: "AraE@gmail.com",
@@ -34,14 +34,14 @@ window.ARAE_CONFIG = {
   sessionScreenshot: "assets/placeholders/sessions.webp",
   worldScreenshot: "assets/placeholders/world.webp",
   rulesScreenshot: "assets/placeholders/rules.webp",
-  gmScreenshot: "assets/placeholders/gm.webp"
+  gmScreenshot: "assets/placeholders/gm.webp",
 
   consumerMediatorName: "À compléter avant mise en ligne commerciale",
-consumerMediatorAddress: "À compléter avant mise en ligne commerciale",
-consumerMediatorUrl: "#",
+  consumerMediatorAddress: "À compléter avant mise en ligne commerciale",
+  consumerMediatorUrl: "#",
   companyLegalForm: "À compléter avant mise en ligne commerciale",
-companyCapital: "À compléter avant mise en ligne commerciale",
-companyPhone: "À compléter avant mise en ligne commerciale",
-founderName: "À compléter si entrepreneur individuel",
-hostPhone: "À compléter avant mise en ligne commerciale",
+  companyCapital: "À compléter avant mise en ligne commerciale",
+  companyPhone: "À compléter avant mise en ligne commerciale",
+  founderName: "À compléter si entrepreneur individuel",
+  hostPhone: "À compléter avant mise en ligne commerciale",
 };
